@@ -71,6 +71,12 @@ body {
     margin-top: -20px;
   }
 }
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
 /* End Components */
 
 /* Start Header */
