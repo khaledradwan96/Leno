@@ -496,4 +496,9 @@ footer a {
   color: var(--main-color);
   /* background-color: white; */
 }
+@media (max-width: 768px) {
+  footer a {
+    bottom: 65px;
+  }
+}
 /* End footer */
